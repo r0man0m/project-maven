@@ -37,8 +37,6 @@
             <groupId>com.javarush</groupId>
             <artifactId>desktop-game-engine</artifactId>
             <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/desktop-game-engine.jar</systemPath>
         </dependency>
     </dependencies>
 
@@ -77,12 +75,11 @@
                 <executions>
                     <execution>
                         <id>copy</id>
-                        <phase>package</phase>
+                        <phase>generate-resources</phase>
                         <goals>
                             <goal>copy-dependencies</goal>
                         </goals>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/lib/</outputDirectory>
                             <includeScope>compile</includeScope>
                         </configuration>
                     </execution>
@@ -91,26 +88,27 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-               <version>2.4</version>
+               <!-- <version>2.4</version>
                 <executions>
                     <execution>
                         <id>copy</id>
                         <phase>generate-resources</phase>
                     </execution>
-                </executions>
+                </executions>-->
                 <configuration>
                     <archive>
                         <manifest>
-                        <addClasspath>true</addClasspath>
-                        <classpathPrefix>lib/</classpathPrefix>
-                        <mainClass>org/eclipse/jdt/internal/jarinjarloader/JarRsrcLoader.java</mainClass>
-                    </manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader</mainClass>
+                        </manifest>
                         <manifestEntries>
                             <Rsrc-Main-Class>
                                 com.javarush.games.racer.RacerGame
                             </Rsrc-Main-Class>
                             <Class-Path>./</Class-Path>
                         </manifestEntries>
+
                     </archive>
                 </configuration>
             </plugin>

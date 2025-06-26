@@ -19,4 +19,3 @@ target/
 .repository/
 *.iml
 *.iws
-*.jar
