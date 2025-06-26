@@ -120,7 +120,6 @@
                     <execution>
                         <id>integration-test</id>
                         <phase>integration-test</phase>
-                        <goals></goals>
 
                     </execution>
                 </executions>
