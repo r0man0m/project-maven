@@ -12,8 +12,6 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
-target/
-/target/
 .idea/
 .idea
 .repository/
