@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Mudru\AppData\Local\Temp\surefire15792671663858301187\surefirebooter-20250626174012016_3.jar C:\Users\Mudru\AppData\Local\Temp\surefire15792671663858301187 2025-06-26T17-40-11_861-jvmRun1 surefire-20250626174012016_1tmp surefire_0-20250626174012016_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Mudru\AppData\Local\Temp\surefire17821745088575399757\surefirebooter-20250626182215497_3.jar C:\Users\Mudru\AppData\Local\Temp\surefire17821745088575399757 2025-06-26T18-22-15_341-jvmRun1 surefire-20250626182215497_1tmp surefire_0-20250626182215497_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Mudru\IdeaProjects\project-maven\target\test-classes;C:\Users\Mudru\IdeaProjects\project-maven\target\classes;C:\Users\Mudru\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\Mudru\.m2\repository\org\openjfx\javafx-controls\18.0.1\javafx-controls-18.0.1.jar;C:\Users\Mudru\.m2\repository\org\openjfx\javafx-controls\18.0.1\javafx-controls-18.0.1-win.jar;C:\Users\Mudru\.m2\repository\org\openjfx\javafx-graphics\18.0.1\javafx-graphics-18.0.1.jar;C:\Users\Mudru\.m2\repository\org\openjfx\javafx-graphics\18.0.1\javafx-graphics-18.0.1-win.jar;C:\Users\Mudru\.m2\repository\org\openjfx\javafx-base\18.0.1\javafx-base-18.0.1.jar;C:\Users\Mudru\.m2\repository\org\openjfx\javafx-base\18.0.1\javafx-base-18.0.1-win.jar;C:\Users\Mudru\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Mudru\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Mudru\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Mudru\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Mudru\IdeaProjects\project-maven\lib\desktop-game-engine.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Mudru\AppData\Local\Temp\surefire15792671663858301187\surefirebooter-20250626174012016_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mudru\AppData\Local\Temp\surefire17821745088575399757\surefirebooter-20250626182215497_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2.1+1-1"/>
@@ -56,5 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="show" classname="com.javarush.games.racer.FinishLineTest" time="0.005"/>
+  <testcase name="show" classname="com.javarush.games.racer.FinishLineTest" time="0.004"/>
 </testsuite>
